@@ -14,8 +14,6 @@ const persistency = new Persistency();
 
 const enterpriseCustomer = new EnterpriseCustomer('Company',
   '444.555/0001-66');
-
-
 const order = new Order(shoppingCart, messaging, persistency, enterpriseCustomer);
 
 shoppingCart.addItem(new Product('Camiseta', 49.9));
