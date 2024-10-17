@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:frontend": "webpack -w",
-    "build:backend": "tsc"
+    "build:backend": "tsc",
+    "test:silent": "jest --watchAll --silent --noStackTrace"
   },
   "author": "",
   "license": "MIT",
@@ -28,6 +29,9 @@
     "prettier": "^3.3.3",
     "ts-loader": "^9.5.1",
     "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
   }
 }
