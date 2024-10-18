@@ -1,4 +1,3 @@
-import { after } from "node:test";
 import { Persistency } from "./persistency";
 
 describe('Persistency', () => {
